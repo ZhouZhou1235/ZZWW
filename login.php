@@ -5,13 +5,13 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-    <?php echo"<title>粉糖粒子 注册</title>"; $homePage->headPart(); ?>
+    <?php echo"<title>粉糖粒子 登录</title>"; $homePage->headPart(); ?>
 </head>
 <body>
     <!-- ZZWW -->
     <?php
         $homePage->menuFull();
-        $homePage->register();    
+        $homePage->login();        
     ?>
 </body>
 </html>
